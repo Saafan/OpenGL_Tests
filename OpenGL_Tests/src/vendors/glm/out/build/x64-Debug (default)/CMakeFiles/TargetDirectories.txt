@@ -1,0 +1,2 @@
+C:/Users/Saafan/Documents/OpenGL/Projects/OpenGL_Original/OpenGL/src/vendors/glm/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+C:/Users/Saafan/Documents/OpenGL/Projects/OpenGL_Original/OpenGL/src/vendors/glm/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir

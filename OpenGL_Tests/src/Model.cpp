@@ -213,10 +213,10 @@ void Model::SetPlaneParam(const float planeSideLength)
 void Model::SetPlaneParam(const float width, const float length)
 {
 	float vertices[] = {
-		-1.0f * width, -1.0f * length, 0.0f,  1.0f, 1.0f,
-		-1.0f * width, 1.0f * length, 0.0f,   1.0f, 0.0f,
-		1.0f * width,  1.0f * length, 0.0f,   0.0f, 0.0f,
-		1.0f * width,   -1.0f * length, 0.0f, 0.0f, 1.0f,
+		-1.0f * width, -1.0f * length, 0.0f,  0.0f, 0.0f,
+		1.0f * width,   -1.0f * length, 0.0f, 1.0f, 0.0f,
+		1.0f * width,  1.0f * length, 0.0f,   1.0f, 1.0f,
+		-1.0f * width, 1.0f * length, 0.0f,   0.0f, 1.0f,
 	};
 	SetVBAttributes(3, 0, 2);
 	SetTargetBufferObject(GL_QUADS);

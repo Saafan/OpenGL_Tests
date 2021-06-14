@@ -13,6 +13,7 @@
 #include "assimp/scene.h"
 #include "assimp/postprocess.h"
 #include <iostream>
+#include "FrameBuffer.h"
 
 enum class ModelType
 {

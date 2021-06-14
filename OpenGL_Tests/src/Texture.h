@@ -15,6 +15,7 @@ private:
 	int m_Width, m_Height, m_BPP;
 public:
 	Texture(const std::string& path, aiTextureType type = aiTextureType_DIFFUSE, bool alpha = true);
+	Texture(int width, int height);
 	//SkyBox Texture
 	Texture(std::vector<std::string> paths);
 	~Texture();
